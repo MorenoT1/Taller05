@@ -67,3 +67,54 @@ De la misma manera, la FIFA ha documentado una tasa de **8,5 lesiones por cada 1
 Trabajamos con datos de acceso público provenientes de plataformas especializadas en análisis de fútbol. Combinamos registros epidemiológicos de lesiones documentados en estudios académicos con estadísticas de partido publicadas por herramientas como **StatsBomb** y **Opta**, que son proveedores de datos muy utilizados por clubes profesionales de Europa (Sports Data Campus, 2025).
 
 Además, el portal **Barça Innovation Hub** publica estudios epidemiológicos con datos reales de temporadas profesionales, que utilizamos como referencia metodológica y para validar nuestros hallazgos.
+
+### 📐 Variables del modelo
+
+| # | Variable | Descripción | Tipo |
+|---|---|---|---|
+| 1 | Minutos acumulados (7 días) | Carga física reciente del jugador | Numérica |
+| 2 | Días desde el último partido | Tiempo de recuperación entre encuentros | Numérica |
+| 3 | Partidos consecutivos | Cantidad de juegos sin descanso significativo | Numérica |
+| 4 | Distancia recorrida por partido | Indicador de intensidad física | Numérica |
+| 5 | Historial de lesiones previas | Lesiones registradas en temporadas anteriores | Numérica |
+| 6 | Momento de la temporada | Inicio, mitad o tramo final | Categórica |
+| 7 | Posición en el campo | Portero, defensa, centrocampista, delantero | Categórica |
+| 8 | Carga aguda vs. crónica | Relación entre esfuerzo reciente y acumulado | Numérica |
+| 9 | Variable objetivo | ¿El jugador sufrió lesión en las próximas 3 semanas? | Binaria |
+
+---
+
+## 🔍 Lo que encontramos
+
+Al explorar los datos, encontramos varios resultados importantes.
+
+El primero fue que las **lesiones musculares son de las más frecuentes** en el fútbol profesional, representando entre el **10 % y el 20 % de todas las lesiones** registradas. Sin embargo, no son las más graves por caso individual, ya que las pubalgias y las fracturas generan más días de baja por episodio (Apunts Sports Medicine, 2012).
+
+El segundo hallazgo tiene que ver con el calendario. Según la UEFA, el número de lesiones de isquiotibiales se ha **duplicado en los últimos 20 años** debido al aumento en la intensidad del juego. Además, el *British Journal of Sports Medicine* relaciona el aumento de acciones de alta intensidad con más lesiones en tendones y rodillas (Telemundo, 2023).
+
+El tercer hallazgo fue institucional. En la temporada 2023–2024, las lesiones aumentaron en la **Premier League, LaLiga, Bundesliga y Serie A**, mientras que la Ligue 1, al reducir el número de equipos participantes, registró una disminución del **26 % en el promedio de lesiones por equipo** (Newtral, 2024). Esto sugiere que la densidad del calendario es un factor importante de riesgo.
+
+### 🦵 Lesiones por tipo y días de baja — fútbol profesional español
+
+| Tipo de lesión | Días de baja por equipo/temporada | Días promedio por lesión | Frecuencia relativa |
+|---|---|---|---|
+| Rotura muscular | 267,2 días | 20,4 días | Alta |
+| Lesión ligamentosa | 182,1 días | 15,0 días | Alta |
+| Sobrecarga muscular | 87,6 días | Variable | La más frecuente |
+| Pubalgia | No en top de frecuencia | 29,2 días | Media-baja |
+| Fractura | Poco frecuente | 28,0 días | Baja |
+
+> Fuente: Apunts Sports Medicine (2012), incidencia lesional en el fútbol profesional español.
+
+### 📅 Riesgo según momento de la temporada
+
+| Etapa | Riesgo estimado | Factor principal |
+|---|---|---|
+| Pretemporada | Medio | Retorno tras descanso sin carga progresiva |
+| Inicio de temporada regular | Medio-alto | Ritmo competitivo brusco después del descanso |
+| Mitad de temporada | Alto | Acumulación de fatiga física y mental |
+| Final de temporada | Muy alto | Fatiga máxima y picos de carga |
+| Competición internacional entre semana | Alto | Doble exigencia con poca recuperación |
+
+---
+
