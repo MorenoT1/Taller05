@@ -1,7 +1,13 @@
 <div align="center">
- 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a5e20,50:2e7d32,100:388e3c&height=230&section=header&text=⚽%20Lesiones%20en%20el%20Fútbol%20Profesional&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Ciencia%20de%20Datos%20aplicada%20al%20deporte%20rey&descAlignY=58&descSize=20" width="100%"/>
- 
-<br/>
- 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=21&pause=1100&color=2e7d32&center=true&vCenter=true&width=950&height=60&lines=Introducción+a+la+Ciencia+de+Datos+·+Grupo+3;¿Pueden+los+datos+anticipar+una+lesión+antes+de+que+ocurra%3F;De+las+estadísticas+al+campo+de+juego)](https://git.io/typing-svg)
+
+# ⚽ Lesiones en el Fútbol Profesional
+
+### Introducción a la Ciencia de Datos · Grupo 3
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Arial&size=20&pause=1200&color=2E7D32&center=true&vCenter=true&width=800&lines=Proyecto+de+ciencia+de+datos+aplicado+al+fútbol;¿Se+pueden+anticipar+las+lesiones+con+datos?;Análisis+de+carga+física+y+riesgo+de+lesión)](https://git.io/typing-svg)
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Análisis-darkblue)
+![Estado](https://img.shields.io/badge/Estado-En%20desarrollo-green)
+
