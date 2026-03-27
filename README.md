@@ -36,6 +36,11 @@
 > **Barça Innovation Hub, 2023**
 
 ---
+
+<p align="center">
+  <img src="https://actualidadmedica.mx/wp-content/uploads/2024/02/9_LesionFut_1.webp" alt="Lesión en fútbol" width="82%"/>
+</p>
+
 ## ⚽ ¿Por qué este tema?
 
 Somos un grupo al que le apasiona el fútbol y que, cuando empezamos a pensar en un proyecto de ciencia de datos, no tardamos mucho en llegar a la misma conclusión: las lesiones son uno de los problemas más frustrantes del deporte profesional y no existe una solución definitiva. Por eso nos quedamos con una pregunta sencilla pero muy importante: **¿se pueden anticipar?**
