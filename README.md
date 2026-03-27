@@ -28,6 +28,10 @@
 
 </div>
 
+<p align="center">
+  <img src="https://grupopineda.eu/wp-content/uploads/2022/03/shutterstock_1912601503.jpg" alt="Fútbol profesional y lesiones" width="88%"/>
+</p>
+
 > "Un equipo profesional de 25 jugadores sufre en promedio 50 lesiones por temporada. La ciencia de datos existe para cambiar ese número."  
 > **Barça Innovation Hub, 2023**
 
