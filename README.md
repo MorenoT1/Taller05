@@ -38,7 +38,7 @@
 ---
 
 <p align="center">
-  <img src="https://actualidadmedica.mx/wp-content/uploads/2024/02/9_LesionFut_1.webp" alt="Lesión en fútbol" width="82%"/>
+  <img src="https://imfisfisioterapia.com/wp-content/uploads/2023/02/iStock-1025958882.jpg" alt="Lesión en fútbol" width="82%"/>
 </p>
 
 ## ⚽ ¿Por qué este tema?
