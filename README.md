@@ -71,6 +71,10 @@ De la misma manera, la FIFA ha documentado una tasa de **8,5 lesiones por cada 1
 
 ---
 
+<p align="center">
+  <img src="https://tutoeris.co/wp-content/uploads/2025/07/tecnicas.png" alt="Análisis de datos" width="78%"/>
+</p>
+
 ## 🗂️ Los datos con los que trabajamos
 
 Trabajamos con datos de acceso público provenientes de plataformas especializadas en análisis de fútbol. Combinamos registros epidemiológicos de lesiones documentados en estudios académicos con estadísticas de partido publicadas por herramientas como **StatsBomb** y **Opta**, que son proveedores de datos muy utilizados por clubes profesionales de Europa (Sports Data Campus, 2025).
