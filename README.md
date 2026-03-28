@@ -138,3 +138,50 @@ El tercer hallazgo fue institucional. En la temporada 2023–2024, las lesiones 
 <p align="center">
   <img src="https://scontent.fbog2-3.fna.fbcdn.net/v/t1.6435-9/81533347_584227908798680_565385101093896192_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7b2446&_nc_ohc=Npewjsr4JAoQ7kNvwGvxtjN&_nc_oc=AdrKNpaNIngIhmUXeFVUCiZmiKlX5h1kIdKNSBOPdkcUNzgN1ylnnWRl3fqNM4nN5ok&_nc_zt=23&_nc_ht=scontent.fbog2-3.fna&_nc_gid=EnznFelUd5RPfU4Elxh-8A&_nc_ss=7a30f&oh=00_AfyZqTudeCdqdH7DOMhIjkM0FzZMLJQrOSMPVWpRXPCbRA&oe=69EE9CE2" alt="Trabajo de análisis" width="82%"/>
 </p>
+
+## ⚙️ Cómo lo hicimos
+
+Seguimos el ciclo estándar de ciencia de datos, adaptado al contexto del fútbol profesional.
+
+### Fase 1. Entendimiento del problema
+
+Antes de trabajar con los datos, definimos con claridad qué queríamos predecir. Decidimos que la variable objetivo sería si un jugador sufriría una lesión muscular o ligamentosa en las siguientes **3 semanas**, porque ese tiempo puede ser útil para que un cuerpo técnico tome decisiones de carga y rotación.
+
+### Fase 2. Recolección de datos
+
+Usamos fuentes públicas y académicas que nos permitieran tener tanto información médica sobre lesiones como información relacionada con el rendimiento y la carga física de los jugadores. Entre las fuentes más importantes estuvieron estudios sobre incidencia lesional, plataformas de análisis de fútbol y reportes recientes sobre el aumento de lesiones en ligas europeas.
+
+**Fuentes utilizadas:**
+
+- Apunts Sports Medicine (2012)
+- Barça Innovation Hub (2023)
+- StatsBomb / Opta
+- Newtral (2024)
+- FIFA / UEFA
+
+### Fase 3. Exploración de datos
+
+Revisamos la distribución de lesiones por tipo, por posición, por momento de la temporada y por carga acumulada. También vimos que los datos están desbalanceados, ya que hay muchos más registros sin lesión que con lesión, lo cual representa un reto importante para el análisis.
+
+### Fase 4. Preparación de variables
+
+Construimos variables derivadas como la relación entre carga reciente y carga acumulada, el número de partidos jugados en los últimos **14 días** y el tiempo transcurrido desde la última lesión registrada. Esto nos ayudó a representar mejor el desgaste físico de cada jugador a lo largo de la temporada.
+
+### Fase 5. Modelado
+
+| Modelo | ¿Por qué lo probamos? | Resultado |
+|---|---|---|
+| Regresión Logística | Como punto de partida para comparar | Probado |
+| Random Forest | Porque funciona bien con varios tipos de variables | Probado |
+| Gradient Boosting | Porque puede adaptarse bien a este tipo de problema | Probado |
+| XGBoost | Porque ofreció los resultados más sólidos | Seleccionado |
+
+### Fase 6. Evaluación
+
+En esta última fase revisamos cuál de los modelos se comportaba mejor frente al problema que queríamos resolver. Más que fijarnos solamente en cuál acertaba más veces, nos interesaba ver cuál daba resultados más útiles para un caso real como el de las lesiones en el fútbol.
+
+También tuvimos en cuenta que en este tipo de problemas no basta con decir que un modelo “funciona bien”, sino que es importante analizar si realmente ayuda a identificar a tiempo a los jugadores que podrían estar en mayor riesgo. Por eso comparamos los resultados obtenidos con cada modelo y miramos cuál ofrecía el mejor equilibrio entre detectar posibles lesiones y no marcar demasiados casos que en realidad no representaban un riesgo alto.
+
+Después de hacer esa comparación, vimos que **XGBoost** fue el modelo que mostró el comportamiento más sólido dentro del proyecto. Por esa razón, lo tomamos como la mejor opción para continuar el análisis y como la base principal de nuestra propuesta.
+
+---
