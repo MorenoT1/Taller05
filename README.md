@@ -18,7 +18,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=22&pause=1200&color=0d4a2a&center=true&vCenter=true&width=1000&height=60&lines=Estudiantes)](https://git.io/typing-svg)
 
 **Juan Felipe Moreno** · **Evelyn Alguero Villamizar**  
-**Juan Gonzalez Claros** · **Samuel Colmenares Tovars**
+**Juan Gonzalez Claros** · **Samuel Colmenares Tovar**
 
 **Docente:** Rodrigo Taborda
 
@@ -180,5 +180,55 @@ A medida que avanzamos, fuimos comparando distintas opciones y revisando cuál r
 En la última fase revisamos los resultados obtenidos para entender cuál opción funcionaba mejor frente al objetivo del proyecto. Más que fijarnos solo en si acertaba o no, nos interesaba ver si realmente ayudaba a detectar situaciones de riesgo con suficiente anticipación.
 
 Después de comparar los resultados, escogimos la opción que mostró un comportamiento más consistente y que se ajustaba mejor a la idea principal del trabajo: usar los datos como apoyo para prevenir lesiones en el fútbol profesional.
+
+---
+
+<p align="center">
+  <img src="https://www.zonamovilidad.es/fotos/2/deporte-tecnologia-lesiones-sports.jpg" alt="Tecnología y deporte" width="84%"/>
+</p>
+
+## 🌐 El científico de datos en el fútbol moderno
+
+Una de las cosas que más nos llamó la atención fue descubrir que la ciencia de datos ya tiene un papel real dentro de los clubes profesionales, y que ese papel sigue creciendo. Según Zenith Sports (2025), algunos de los perfiles más solicitados en clubes y academias de fútbol de élite son los siguientes:
+
+| Perfil | Rol en el club |
+|---|---|
+| Analista de rendimiento | Evalúa acciones individuales y colectivas con apoyo de video y datos |
+| Data scientist deportivo | Desarrolla modelos predictivos y análisis estadísticos |
+| Preparador físico analítico | Controla cargas y optimiza entrenamientos con datos |
+| Scouting data analyst | Analiza talento y reclutamiento con apoyo estadístico |
+
+---
+
+## 📚 Referencias
+
+<details>
+<summary><b>Ver referencias completas</b></summary>
+
+<br>
+
+Apunts Sports Medicine. (2012). *Incidencia lesional en el fútbol profesional español a lo largo de una temporada: días de baja por lesión*. https://www.apunts.org/es-incidencia-lesional-el-futbol-profesional-articulo-X0213371712807012
+
+Automatizapro. (2025, 2 de noviembre). *Análisis de datos en el fútbol: de las estadísticas básicas a los modelos predictivos*. https://www.automatizapro.com.ar/blog/analisis-datos-futbol-inteligencia-artificial-2025/
+
+Barça Innovation Hub. (2023, 20 de diciembre). *¿Cuánto se lesiona un jugador profesional? Un análisis de la epidemiología de las lesiones en el fútbol*. FC Barcelona. https://barcainnovationhub.fcbarcelona.com/es/blog/cuanto-se-lesiona-un-jugador-profesional-un-analisis-de-la-epidemiologia-de-las-lesiones-en-el-futbol/
+
+EAE Business School. (2025, 19 de mayo). *Big data en el fútbol: impacto de la ciencia de datos*. https://www.eaemadrid.com/es/blog/big-data-en-el-futbol
+
+Euncet Business School. (2025, 28 de agosto). *Sports analytics: cómo los datos revolucionan la gestión deportiva*. https://www.euncet.com/blog/es/sports-analytics-datos-revolucionan-gestion-deportiva/
+
+Fisioterapia Francisco Lledó. (2025, 27 de junio). *Lesiones en el fútbol: estadísticas y prevención*. https://www.fisiolledo.es/lesiones-futbol-estadisticas-prevencion/
+
+Newtral. (2024, 17 de noviembre). *Lesiones y calendario, los datos de la liga masculina de fútbol*. https://www.newtral.es/lesiones-calendario-datos-preocupaciones-liga-masculina-futbol/20241117/
+
+Sports Data Campus. (2025). *Top 8 herramientas de Big Data para el fútbol*. https://sportsdatacampus.com/top-8-herramientas-de-big-data-para-el-futbol/
+
+Telemundo. (2023, 8 de noviembre). *Una oleada de lesiones azota a la Premier League; el VAR está implicado*. https://www.telemundo.com/deportes/premier-league/una-oleada-de-lesiones-azota-a-la-premier-league-el-var-esta-implicado-rcna124223
+
+ThermoHuman. (2022, 20 de enero). *Machine learning: modelo de predicción de lesiones en el fútbol*. https://thermohuman.com/es/2022/01/20/modelo-de-prediccion-de-lesiones
+
+Zenith Sports. (2025, 18 de agosto). *Análisis de datos en fútbol de élite: cómo la información está transformando el juego*. https://zenithsports.com/analisis-de-datos-en-futbol-de-elite-como-la-informacion-esta-transformando-el-juego
+
+</details>
 
 ---
