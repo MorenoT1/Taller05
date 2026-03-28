@@ -1,8 +1,8 @@
 <div align="center">
 
-# ⚽ Lesiones en el Fútbol Profesional
+#Lesiones en el Fútbol Profesional
 
-### Introducción a la Ciencia de Datos · Grupo 3
+### Introducción a la Ciencia de Datos · Grupo 4
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Arial&size=20&pause=1200&color=2E7D32&center=true&vCenter=true&width=800&lines=Proyecto+de+ciencia+de+datos+aplicado+al+fútbol;¿Se+pueden+anticipar+las+lesiones+con+datos?;Análisis+de+carga+física+y+riesgo+de+lesión)](https://git.io/typing-svg)
 
@@ -41,7 +41,7 @@
   <img src="https://imfisfisioterapia.com/wp-content/uploads/2023/02/iStock-1025958882.jpg" alt="Lesión en fútbol" width="82%"/>
 </p>
 
-## ⚽ ¿Por qué este tema?
+## ¿Por qué este tema?
 
 Somos un grupo al que le apasiona el fútbol y que, cuando empezamos a pensar en un proyecto de ciencia de datos, no tardamos mucho en llegar a la misma conclusión: las lesiones son uno de los problemas más frustrantes del deporte profesional y no existe una solución definitiva. Por eso nos quedamos con una pregunta sencilla pero muy importante: **¿se pueden anticipar?**
 
@@ -49,7 +49,7 @@ Investigamos y encontramos que la respuesta es sí, al menos parcialmente. Adem�
 
 ---
 
-## 📋 ¿De qué trata el proyecto?
+## ¿De qué trata el proyecto?
 
 El proyecto busca construir un **modelo predictivo de clasificación** que identifique, a partir de datos de carga física y contexto de temporada, si un jugador de fútbol profesional tiene alto riesgo de sufrir una lesión muscular o ligamentosa en las próximas semanas.
 
@@ -57,7 +57,7 @@ Según un estudio sobre incidencia lesional en el fútbol profesional español, 
 
 De la misma manera, la FIFA ha documentado una tasa de **8,5 lesiones por cada 1.000 horas de juego** en el fútbol profesional, mientras que en el fútbol amateur esa cifra sube hasta **20 por cada 1.000 horas** (Fisioterapia Francisco Lledó, 2025). Esto demuestra que el manejo de datos y la prevención pueden marcar diferencias importantes.
 
-### 📊 Cifras de contexto
+### Cifras de contexto
 
 | Indicador | Dato verificado | Fuente |
 |---|---|---|
@@ -75,13 +75,13 @@ De la misma manera, la FIFA ha documentado una tasa de **8,5 lesiones por cada 1
   <img src="https://tutoeris.co/wp-content/uploads/2025/07/tecnicas.png" alt="Análisis de datos" width="78%"/>
 </p>
 
-## 🗂️ Los datos con los que trabajamos
+## Los datos con los que trabajamos
 
 Trabajamos con datos de acceso público provenientes de plataformas especializadas en análisis de fútbol. Combinamos registros epidemiológicos de lesiones documentados en estudios académicos con estadísticas de partido publicadas por herramientas como **StatsBomb** y **Opta**, que son proveedores de datos muy utilizados por clubes profesionales de Europa (Sports Data Campus, 2025).
 
 Además, el portal **Barça Innovation Hub** publica estudios epidemiológicos con datos reales de temporadas profesionales, que utilizamos como referencia metodológica y para validar nuestros hallazgos.
 
-### 📐 Variables del modelo
+### Variables del modelo
 
 | # | Variable | Descripción | Tipo |
 |---|---|---|---|
@@ -101,7 +101,7 @@ Además, el portal **Barça Innovation Hub** publica estudios epidemiológicos c
   <img src="https://img.freepik.com/foto-gratis/jugadores-futbol-accion-estadio-profesional_654080-1746.jpg?semt=ais_hybrid&w=740&q=80" alt="Partido de fútbol profesional" width="84%"/>
 </p>
 
-## 🔍 Lo que encontramos
+## Lo que encontramos
 
 Al explorar los datos, encontramos varios resultados importantes.
 
@@ -111,7 +111,7 @@ El segundo hallazgo tiene que ver con el calendario. Según la UEFA, el número 
 
 El tercer hallazgo fue institucional. En la temporada 2023–2024, las lesiones aumentaron en la **Premier League, LaLiga, Bundesliga y Serie A**, mientras que la Ligue 1, al reducir el número de equipos participantes, registró una disminución del **26 % en el promedio de lesiones por equipo** (Newtral, 2024). Esto sugiere que la densidad del calendario es un factor importante de riesgo.
 
-### 🦵 Lesiones por tipo y días de baja — fútbol profesional español
+### Lesiones por tipo y días de baja — fútbol profesional español
 
 | Tipo de lesión | Días de baja por equipo/temporada | Días promedio por lesión | Frecuencia relativa |
 |---|---|---|---|
@@ -123,7 +123,7 @@ El tercer hallazgo fue institucional. En la temporada 2023–2024, las lesiones 
 
 > Fuente: Apunts Sports Medicine (2012), incidencia lesional en el fútbol profesional español.
 
-### 📅 Riesgo según momento de la temporada
+### Riesgo según momento de la temporada
 
 | Etapa | Riesgo estimado | Factor principal |
 |---|---|---|
@@ -139,7 +139,7 @@ El tercer hallazgo fue institucional. En la temporada 2023–2024, las lesiones 
   <img src="https://scontent.fbog2-3.fna.fbcdn.net/v/t1.6435-9/81533347_584227908798680_565385101093896192_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7b2446&_nc_ohc=Npewjsr4JAoQ7kNvwGvxtjN&_nc_oc=AdrKNpaNIngIhmUXeFVUCiZmiKlX5h1kIdKNSBOPdkcUNzgN1ylnnWRl3fqNM4nN5ok&_nc_zt=23&_nc_ht=scontent.fbog2-3.fna&_nc_gid=EnznFelUd5RPfU4Elxh-8A&_nc_ss=7a30f&oh=00_AfyZqTudeCdqdH7DOMhIjkM0FzZMLJQrOSMPVWpRXPCbRA&oe=69EE9CE2" alt="Trabajo de análisis" width="82%"/>
 </p>
 
-## ⚙️ Cómo lo hicimos
+## Cómo lo hicimos
 
 Seguimos el ciclo estándar de ciencia de datos, adaptado al contexto del fútbol profesional.
 
@@ -187,7 +187,7 @@ Después de comparar los resultados, escogimos la opción que mostró un comport
   <img src="https://www.zonamovilidad.es/fotos/2/deporte-tecnologia-lesiones-sports.jpg" alt="Tecnología y deporte" width="84%"/>
 </p>
 
-## 🌐 El científico de datos en el fútbol moderno
+## El científico de datos en el fútbol moderno
 
 Una de las cosas que más nos llamó la atención fue descubrir que la ciencia de datos ya tiene un papel real dentro de los clubes profesionales, y que ese papel sigue creciendo. Según Zenith Sports (2025), algunos de los perfiles más solicitados en clubes y academias de fútbol de élite son los siguientes:
 
