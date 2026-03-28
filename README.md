@@ -135,3 +135,6 @@ El tercer hallazgo fue institucional. En la temporada 2023–2024, las lesiones 
 
 ---
 
+<p align="center">
+  <img src="https://scontent.fbog2-3.fna.fbcdn.net/v/t1.6435-9/81533347_584227908798680_565385101093896192_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7b2446&_nc_ohc=Npewjsr4JAoQ7kNvwGvxtjN&_nc_oc=AdrKNpaNIngIhmUXeFVUCiZmiKlX5h1kIdKNSBOPdkcUNzgN1ylnnWRl3fqNM4nN5ok&_nc_zt=23&_nc_ht=scontent.fbog2-3.fna&_nc_gid=EnznFelUd5RPfU4Elxh-8A&_nc_ss=7a30f&oh=00_AfyZqTudeCdqdH7DOMhIjkM0FzZMLJQrOSMPVWpRXPCbRA&oe=69EE9CE2" alt="Trabajo de análisis" width="82%"/>
+</p>
