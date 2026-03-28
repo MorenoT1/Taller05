@@ -97,6 +97,10 @@ Además, el portal **Barça Innovation Hub** publica estudios epidemiológicos c
 
 ---
 
+<p align="center">
+  <img src="https://img.freepik.com/foto-gratis/jugadores-futbol-accion-estadio-profesional_654080-1746.jpg?semt=ais_hybrid&w=740&q=80" alt="Partido de fútbol profesional" width="84%"/>
+</p>
+
 ## 🔍 Lo que encontramos
 
 Al explorar los datos, encontramos varios resultados importantes.
