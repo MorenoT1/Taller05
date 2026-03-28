@@ -163,25 +163,22 @@ Usamos fuentes públicas y académicas que nos permitieran tener tanto informaci
 
 Revisamos la distribución de lesiones por tipo, por posición, por momento de la temporada y por carga acumulada. También vimos que los datos están desbalanceados, ya que hay muchos más registros sin lesión que con lesión, lo cual representa un reto importante para el análisis.
 
-### Fase 4. Preparación de variables
+### Fase 4. Organización de la información
 
-Construimos variables derivadas como la relación entre carga reciente y carga acumulada, el número de partidos jugados en los últimos **14 días** y el tiempo transcurrido desde la última lesión registrada. Esto nos ayudó a representar mejor el desgaste físico de cada jugador a lo largo de la temporada.
+Después de revisar los datos, organizamos la información para que fuera más clara y útil dentro del proyecto. En esta parte reunimos aspectos que podían relacionarse con el riesgo de lesión, como la carga reciente del jugador, los partidos seguidos, el tiempo de descanso y los antecedentes de lesiones.
 
-### Fase 5. Modelado
+Con esto buscamos dejar la información mejor preparada para compararla y para encontrar patrones que ayudaran a entender en qué momentos un jugador podía estar más expuesto a lesionarse.
 
-| Modelo | ¿Por qué lo probamos? | Resultado |
-|---|---|---|
-| Regresión Logística | Como punto de partida para comparar | Probado |
-| Random Forest | Porque funciona bien con varios tipos de variables | Probado |
-| Gradient Boosting | Porque puede adaptarse bien a este tipo de problema | Probado |
-| XGBoost | Porque ofreció los resultados más sólidos | Seleccionado |
+### Fase 5. Pruebas del análisis
 
-### Fase 6. Evaluación
+En esta etapa hicimos varias pruebas con los datos para mirar cuál forma de análisis se ajustaba mejor al problema del proyecto. La idea no era solo obtener resultados, sino encontrar una manera de identificar señales de riesgo de una forma clara y útil.
 
-En esta última fase revisamos cuál de los modelos se comportaba mejor frente al problema que queríamos resolver. Más que fijarnos solamente en cuál acertaba más veces, nos interesaba ver cuál daba resultados más útiles para un caso real como el de las lesiones en el fútbol.
+A medida que avanzamos, fuimos comparando distintas opciones y revisando cuál respondía mejor a lo que queríamos estudiar. Esto nos permitió escoger la alternativa que mostró resultados más estables dentro del análisis.
 
-También tuvimos en cuenta que en este tipo de problemas no basta con decir que un modelo “funciona bien”, sino que es importante analizar si realmente ayuda a identificar a tiempo a los jugadores que podrían estar en mayor riesgo. Por eso comparamos los resultados obtenidos con cada modelo y miramos cuál ofrecía el mejor equilibrio entre detectar posibles lesiones y no marcar demasiados casos que en realidad no representaban un riesgo alto.
+### Fase 6. Revisión de resultados
 
-Después de hacer esa comparación, vimos que **XGBoost** fue el modelo que mostró el comportamiento más sólido dentro del proyecto. Por esa razón, lo tomamos como la mejor opción para continuar el análisis y como la base principal de nuestra propuesta.
+En la última fase revisamos los resultados obtenidos para entender cuál opción funcionaba mejor frente al objetivo del proyecto. Más que fijarnos solo en si acertaba o no, nos interesaba ver si realmente ayudaba a detectar situaciones de riesgo con suficiente anticipación.
+
+Después de comparar los resultados, escogimos la opción que mostró un comportamiento más consistente y que se ajustaba mejor a la idea principal del trabajo: usar los datos como apoyo para prevenir lesiones en el fútbol profesional.
 
 ---
